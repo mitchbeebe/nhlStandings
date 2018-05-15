@@ -96,7 +96,7 @@ getStandings <- function(season, asOf = c("Final","Nov1")){
 }
 
 # Vector of seasons to pull standings
-seasons <- c(1990:2004,2006:2016)
+seasons <- c(1990:2004,2006:2018)
 
 # Apply getStandings() to seasons of interest for November standings
 novStandings <- seasons %>% 
